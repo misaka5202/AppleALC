@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
 	<key>LayoutID</key>
 	<integer>33</integer>
@@ -1768,11 +1771,11 @@
 										<key>5</key>
 										<integer>4</integer>
 										<key>6</key>
-										<integer>1159869239</integer>
+										<integer>1155189105</integer>
 										<key>7</key>
-										<integer>1091762332</integer>
+										<integer>1087860781</integer>
 										<key>8</key>
-										<integer>-1066376759</integer>
+										<integer>-1059456714</integer>
 									</dict>
 									<dict>
 										<key>2</key>
@@ -1784,11 +1787,11 @@
 										<key>5</key>
 										<integer>4</integer>
 										<key>6</key>
-										<integer>1159996944</integer>
+										<integer>1159273264</integer>
 										<key>7</key>
-										<integer>1079518382</integer>
+										<integer>1086635806</integer>
 										<key>8</key>
-										<integer>-1059723725</integer>
+										<integer>-1063728896</integer>
 									</dict>
 									<dict>
 										<key>2</key>
@@ -1800,11 +1803,11 @@
 										<key>5</key>
 										<integer>4</integer>
 										<key>6</key>
-										<integer>1162832390</integer>
+										<integer>1161800243</integer>
 										<key>7</key>
-										<integer>1082060895</integer>
+										<integer>1090996311</integer>
 										<key>8</key>
-										<integer>-1046584540</integer>
+										<integer>-1053804973</integer>
 									</dict>
 									<dict>
 										<key>2</key>
@@ -1816,11 +1819,11 @@
 										<key>5</key>
 										<integer>4</integer>
 										<key>6</key>
-										<integer>1161904892</integer>
+										<integer>1166692052</integer>
 										<key>7</key>
-										<integer>1093818960</integer>
+										<integer>1094955050</integer>
 										<key>8</key>
-										<integer>-1063194874</integer>
+										<integer>-1061592805</integer>
 									</dict>
 									<dict>
 										<key>2</key>
@@ -2927,3 +2930,4 @@
 		</dict>
 	</array>
 </dict>
+</plist>
