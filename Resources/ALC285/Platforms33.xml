@@ -3,15 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>CommonPeripheralDSP</key>
-	<array/>
+	<array>
+		<dict>
+			<key>DeviceID</key>
+			<integer>0</integer>
+			<key>DeviceType</key>
+			<string>Headphone</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<integer>0</integer>
+			<key>DeviceType</key>
+			<string>Microphone</string>
+		</dict>
+	</array>
 	<key>PathMaps</key>
 	<array>
 		<dict>
-			<key>PathMapID</key>
-			<integer>33</integer>
 			<key>PathMap</key>
 			<array>
-				<!-- 输入路径：麦克风 -->
 				<array>
 					<array>
 						<array>
@@ -20,84 +30,242 @@
 								<dict>
 									<key>Channels</key>
 									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
 									</array>
-									<key>MuteInputAmp</key><true/><key>PublishMute</key><true/><key>PublishVolume</key><true/><key>VolumeInputAmp</key><true/>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<true/>
 								</dict>
-								<key>NodeID</key><integer>7</integer>
+								<key>NodeID</key>
+								<integer>7</integer>
 							</dict>
 							<dict>
-								<key>NodeID</key><integer>36</integer>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<true/>
+								</dict>
+								<key>NodeID</key>
+								<integer>36</integer>
 							</dict>
 							<dict>
-								<key>Boost</key><integer>0</integer><key>NodeID</key><integer>18</integer>
+								<key>Boost</key>
+								<integer>0</integer>
+								<key>NodeID</key>
+								<integer>18</integer>
+							</dict>
+						</array>
+					</array>
+					<array>
+						<array>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<true/>
+								</dict>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
+								<key>NodeID</key>
+								<integer>8</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>Channels</key>
+									<array>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<true/>
+								</dict>
+								<key>NodeID</key>
+								<integer>35</integer>
+							</dict>
+							<dict>
+								<key>Boost</key>
+								<integer>2</integer>
+								<key>NodeID</key>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
 				</array>
-				<!-- 输出路径：扬声器与耳机 -->
 				<array>
-					<!-- 内置主扬声器：标准物理立体声 (Node 20 -> DAC 2) -->
 					<array>
 						<array>
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>Channels</key>
-									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
-									</array>
-									<key>MuteInputAmp</key><true/><key>PublishMute</key><true/><key>PublishVolume</key><false/><key>VolumeInputAmp</key><false/>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
 								</dict>
-								<key>NodeID</key><integer>20</integer>
+								<key>NodeID</key>
+								<integer>20</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
 								<dict>
 									<key>Channels</key>
 									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
 									</array>
-									<key>MuteInputAmp</key><false/><key>PublishMute</key><false/><key>PublishVolume</key><true/><key>VolumeInputAmp</key><false/>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
 								</dict>
-								<key>NodeID</key><integer>2</integer>
+								<key>NodeID</key>
+								<integer>2</integer>
 							</dict>
 						</array>
 					</array>
-					<!-- 3.5mm 耳机：(Node 33 -> DAC 3) -->
 					<array>
 						<array>
 							<dict>
 								<key>Amp</key>
 								<dict>
-									<key>Channels</key>
-									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
-									</array>
-									<key>MuteInputAmp</key><false/><key>PublishMute</key><true/><key>PublishVolume</key><false/><key>VolumeInputAmp</key><false/>
+									<key>MuteInputAmp</key>
+									<false/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<false/>
+									<key>VolumeInputAmp</key>
+									<false/>
 								</dict>
-								<key>NodeID</key><integer>33</integer>
+								<key>NodeID</key>
+								<integer>33</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
 								<dict>
 									<key>Channels</key>
 									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
+										<dict>
+											<key>Bind</key>
+											<integer>1</integer>
+											<key>Channel</key>
+											<integer>1</integer>
+										</dict>
+										<dict>
+											<key>Bind</key>
+											<integer>2</integer>
+											<key>Channel</key>
+											<integer>2</integer>
+										</dict>
 									</array>
-									<key>MuteInputAmp</key><false/><key>PublishMute</key><false/><key>PublishVolume</key><true/><key>VolumeInputAmp</key><false/>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<false/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
 								</dict>
-								<key>NodeID</key><integer>3</integer>
+								<key>NodeID</key>
+								<integer>3</integer>
 							</dict>
 						</array>
 					</array>
 				</array>
 			</array>
+			<key>PathMapID</key>
+			<integer>33</integer>
 		</dict>
 	</array>
 </dict>
