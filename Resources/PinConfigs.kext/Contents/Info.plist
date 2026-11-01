@@ -4794,13 +4794,13 @@
 					<key>CodecName</key>
 					<string>PIut02 - Realtek ALC285 for ROG-Zephyrus-G14</string>
 					<key>ConfigData</key>
-					<data>AScccAEnHQEBJx6mAScfkAE3HPABNx0AATceAAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFnHPABZx0AAWceAAFnH0ABdxxBAXcdAQF3HhcBdx+QAYcc8AGHHQABhx4AAYcfQAGXHCABlx0QAZceiwGXHwIBpxzwAacdAAGnHgABpx9AAbcc8AG3HQABtx4AAbcfQAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIXHwICFwwC</data>
+					<data>AUccEAF3HQEBdx4XAXcfmQF3HBECdx0BAXceFwF3H5kCGxwwAhcdEAIxHiECFx8BARccQAF3HQEBdx6mAfcflgEXHFAANx0BATcehgF3H5k=</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>33</integer>
 					<key>WakeConfigData</key>
-					<data>AUcMAgG3DAICFwwC</data>
+					<data>AUcMAg==</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
