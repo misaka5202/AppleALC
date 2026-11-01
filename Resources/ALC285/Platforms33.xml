@@ -22,9 +22,7 @@
 		<dict>
 			<key>PathMap</key>
 			<array>
-				<!-- 输入路径：麦克风 / 线路输入 -->
 				<array>
-					<!-- 内置数字麦克风路径 (Node 18 -> Node 36 -> Node 7) -->
 					<array>
 						<array>
 							<dict>
@@ -95,7 +93,6 @@
 							</dict>
 						</array>
 					</array>
-					<!-- 外置 3.5mm 麦克风插孔路径 (Node 25 -> Node 35 -> Node 8) -->
 					<array>
 						<array>
 							<dict>
@@ -169,11 +166,8 @@
 						</array>
 					</array>
 				</array>
-				<!-- 输出路径：扬声器 / 耳机 -->
 				<array>
-					<!-- 内置四扬声器阵列复合路径 -->
 					<array>
-						<!-- 扬声器组 1：主/高音扬声器 (Node 20 -> DAC Node 2) -->
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -221,23 +215,7 @@
 								<integer>2</integer>
 							</dict>
 						</array>
-						<!-- 扬声器组 2：低音扬声器 (Node 23 -> DAC Node 6) [已修正拓扑] -->
 						<array>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>23</integer>
-							</dict>
 							<dict>
 								<key>Amp</key>
 								<dict>
@@ -259,18 +237,21 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
 								<key>NodeID</key>
+								<integer>23</integer>
+							</dict>
+							<dict>
+								<key>NodeID</key>
 								<integer>6</integer>
 							</dict>
 						</array>
 					</array>
-					<!-- 耳机路径 (Node 33 -> DAC Node 3) -->
 					<array>
 						<array>
 							<dict>
