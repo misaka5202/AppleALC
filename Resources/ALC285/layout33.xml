@@ -33,11 +33,6 @@
 				<key>MuteGPIO</key>
 				<integer>0</integer>
 			</dict>
-			<key>Mic</key>
-			<dict>
-				<key>MuteGPIO</key>
-				<integer>0</integer>
-			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>Headphone</string>
