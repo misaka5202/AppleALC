@@ -50,7 +50,7 @@
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
-									<true/>
+								<true/>
 								</dict>
 								<key>NodeID</key>
 								<integer>7</integer>
@@ -109,6 +109,7 @@
 										<dict>
 											<key>Bind</key>
 											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
@@ -134,11 +135,13 @@
 										<dict>
 											<key>Bind</key>
 											<integer>1</integer>
+											<key>Channel</key>
 											<integer>1</integer>
 										</dict>
 										<dict>
 											<key>Bind</key>
 											<integer>2</integer>
+											<key>Channel</key>
 											<integer>2</integer>
 										</dict>
 									</array>
