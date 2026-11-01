@@ -22,7 +22,9 @@
 		<dict>
 			<key>PathMap</key>
 			<array>
+				<!-- 输入路径集合 -->
 				<array>
+					<!-- 内置麦克风: Node 18 -> Node 36 -> Node 7 -->
 					<array>
 						<array>
 							<dict>
@@ -93,6 +95,7 @@
 							</dict>
 						</array>
 					</array>
+					<!-- 外置 3.5mm 麦克风: Node 25 -> Node 35 -> Node 8 -->
 					<array>
 						<array>
 							<dict>
@@ -166,8 +169,11 @@
 						</array>
 					</array>
 				</array>
+				<!-- 输出路径集合 -->
 				<array>
+					<!-- 扬声器复合阵列: IntSpeaker -->
 					<array>
+						<!-- 扬声器 1 (主/全频): Node 20 -> DAC Node 2 -->
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -215,6 +221,7 @@
 								<integer>2</integer>
 							</dict>
 						</array>
+						<!-- 扬声器 2 (低音单元): Node 23 -> DAC Node 6 (直通) -->
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -252,6 +259,7 @@
 							</dict>
 						</array>
 					</array>
+					<!-- 3.5mm 耳机: Node 33 -> DAC Node 3 -->
 					<array>
 						<array>
 							<dict>
