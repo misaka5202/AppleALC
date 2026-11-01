@@ -38,8 +38,9 @@
 				</array>
 				<!-- 输出路径：扬声器与耳机 -->
 				<array>
-					<!-- 内置扬声器复合阵列：Node 20 与 Node 23 同时接入 DAC 2 -->
+					<!-- 扬声器阵列：主从平滑输出（消除抽搐） -->
 					<array>
+						<!-- 主扬声器 (Node 20 -> DAC 2)：全权负责系统音量与静音 -->
 						<array>
 							<dict>
 								<key>Amp</key>
@@ -66,34 +67,17 @@
 								<key>NodeID</key><integer>2</integer>
 							</dict>
 						</array>
+						<!-- 从属低音单元 (Node 23 -> DAC 2)：不重复发布控制流，直通输出 -->
 						<array>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
-									</array>
-									<key>MuteInputAmp</key><true/><key>PublishMute</key><true/><key>PublishVolume</key><true/><key>VolumeInputAmp</key><false/>
-								</dict>
 								<key>NodeID</key><integer>23</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict><key>Bind</key><integer>1</integer><key>Channel</key><integer>1</integer></dict>
-										<dict><key>Bind</key><integer>2</integer><key>Channel</key><integer>2</integer></dict>
-									</array>
-									<key>MuteInputAmp</key><true/><key>PublishMute</key><false/><key>PublishVolume</key><false/><key>VolumeInputAmp</key><false/>
-								</dict>
 								<key>NodeID</key><integer>2</integer>
 							</dict>
 						</array>
 					</array>
-					<!-- 3.5mm 耳机：Node 33 接入 DAC 3 -->
+					<!-- 3.5mm 耳机：Node 33 -> DAC 3 -->
 					<array>
 						<array>
 							<dict>
